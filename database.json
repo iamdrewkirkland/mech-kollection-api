@@ -1,0 +1,404 @@
+{
+  "users": [
+    {
+      "email": "drew@me.com",
+      "id": 1,
+      "firstName": "Drew",
+      "lastName": "Kirkland",
+      "username": "iamdrewk",
+      "password": "qwe"
+    },
+    {
+      "email": "s@s.com",
+      "password": "qwe",
+      "username": "sbrownlee",
+      "firstName": "Steve",
+      "lastName": "Brownlee",
+      "id": 2
+    },
+    {
+      "email": "mo@mo.com",
+      "password": "qwe",
+      "username": "motacospls",
+      "firstName": "Mo",
+      "lastName": "Silvera",
+      "id": 3
+    },
+    {
+      "email": "madi@madi.me",
+      "password": "qwe",
+      "username": "msspicy",
+      "firstName": "Madi",
+      "lastName": "Pepper",
+      "id": 4
+    },
+    {
+      "email": "t@t.com",
+      "password": "qwe",
+      "username": "tessie",
+      "firstName": "Tess",
+      "lastName": "Tuquero",
+      "id": 5
+    }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "userId": 1,
+      "following": 4
+    },
+    {
+      "userId": 1,
+      "following": 2,
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "following": 5,
+      "id": 8
+    }
+  ],
+  "results": [
+    {
+      "buildId": 13,
+      "date": "2020-05-18T20:58:06.161Z",
+      "wpm": 121,
+      "pb": false,
+      "website": "10fastfingers",
+      "id": 11
+    },
+    {
+      "buildId": 15,
+      "date": "2020-05-18T16:13:10.150Z",
+      "wpm": 113,
+      "pb": false,
+      "website": "10fastfingers",
+      "id": 14
+    },
+    {
+      "buildId": 14,
+      "date": "2020-05-19T00:13:58.141Z",
+      "wpm": 122,
+      "pb": false,
+      "website": "typetest.io",
+      "id": 15
+    }
+  ],
+  "builds": [
+    {
+      "id": 1,
+      "userId": 1,
+      "statusId": 1,
+      "name": "Pink Polaris",
+      "description": "my babee",
+      "buildWeight": 1450,
+      "casePlateMaterialId": 2,
+      "switchWeight": 62,
+      "isHidden": true
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "statusId": 1,
+      "name": "Red Polaris",
+      "buildWeight": 1700,
+      "caseName": "Polaris",
+      "caseColor": "red",
+      "caseDesigner": "ai03",
+      "caseMaterialId": 1,
+      "caseLayoutId": 1,
+      "casePlateMaterialId": 2,
+      "switchName": "zealios",
+      "switchTypeId": 2,
+      "switchWeight": 67,
+      "switchLube": "tribosys 3203",
+      "keycapName": "GMK Jamon",
+      "keycapProfile": "Cherry",
+      "keycapMaterialId": 3,
+      "keycapSculpt": true
+    },
+    {
+      "userId": 3,
+      "name": "Purple Polaris",
+      "buildWeight": 1700,
+      "caseName": "Polaris",
+      "caseColor": "Purple",
+      "caseDesigner": "ai03",
+      "caseMaterialId": 7,
+      "caseLayoutId": 3,
+      "switchName": "Zealios",
+      "switchWeight": 67,
+      "switchLube": "Tribosys 3203",
+      "switchTypeId": 2,
+      "keycapName": "GMK Jamon",
+      "keycapProfile": "Cherry",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "caseName": "u80-A",
+      "caseColor": "milky",
+      "caseDesigner": "Rama",
+      "caseLayoutId": 2,
+      "switchName": "Gateron Silent Inks",
+      "switchWeight": 67,
+      "switchLube": "Tribosys 3203",
+      "keycapName": "KAT Milkshake",
+      "keycapProfile": "KAT",
+      "id": 7,
+      "name": "Rama Works",
+      "buildWeight": 4000,
+      "description": "just a flex",
+      "caseMaterialId": 7,
+      "switchTypeId": 1,
+      "isHidden": true
+    },
+    {
+      "userId": 1,
+      "caseName": "m60",
+      "caseColor": "",
+      "caseDesigner": "",
+      "switchName": "Kailh Box Jades",
+      "switchWeight": null,
+      "switchLube": "",
+      "switchTypeId": 3,
+      "keycapName": "GMK Redacted",
+      "keycapProfile": "",
+      "id": 9,
+      "isHidden": true
+    },
+    {
+      "userId": 1,
+      "name": "Polycarb Gigante",
+      "buildWeight": 890,
+      "description": "fun and games",
+      "caseName": "El Gigante",
+      "caseColor": "Frosted",
+      "caseDesigner": "",
+      "caseMaterialId": 8,
+      "caseLayoutId": 3,
+      "switchName": "Mauve",
+      "switchWeight": 67,
+      "switchLube": "",
+      "switchTypeId": 1,
+      "keycapName": "GMK BoW",
+      "keycapProfile": "Cherry",
+      "id": 10,
+      "isHidden": true
+    },
+    {
+      "userId": 1,
+      "name": "Test Build",
+      "buildWeight": 1450,
+      "description": "form trial",
+      "caseName": "Equinox",
+      "caseColor": "Rose Gold",
+      "caseDesigner": "ai03",
+      "switchName": "Mauves",
+      "switchWeight": null,
+      "switchLube": "",
+      "switchTypeId": 2,
+      "keycapName": "KAM Wraith",
+      "keycapProfile": "KAM",
+      "id": 11,
+      "isHidden": true
+    },
+    {
+      "userId": 1,
+      "name": "Test 2",
+      "buildWeight": 3333,
+      "description": "case refactor",
+      "caseName": "The Avenue",
+      "caseColor": "E-Yellow",
+      "caseDesigner": "The Royal",
+      "caseMaterialId": 7,
+      "plateMaterialId": 4,
+      "caseLayoutId": 3,
+      "switchName": "Holy Pandas",
+      "switchWeight": 67,
+      "switchLube": "Krytox 205g0",
+      "switchTypeId": 2,
+      "keycapName": "Serika",
+      "keycapProfile": "Mt3",
+      "keycapMaterialId": 3,
+      "keycapSculpt": "Sculpted",
+      "id": 12,
+      "isHidden": true
+    },
+    {
+      "userId": 1,
+      "name": "RW Thermal",
+      "buildWeight": 1780,
+      "description": "Wilba's first design",
+      "caseName": "Thermal",
+      "caseColor": "Race Red",
+      "caseDesigner": "Wilba",
+      "caseMaterialId": 7,
+      "plateMaterialId": 4,
+      "caseLayoutId": 3,
+      "switchName": "Red Inks",
+      "switchWeight": 62,
+      "switchLube": "205g0",
+      "switchTypeId": 1,
+      "keycapName": "GMK Jamon",
+      "keycapProfile": "Cherry",
+      "keycapMaterialId": 2,
+      "keycapSculpt": "Sculpted",
+      "id": 13,
+      "isHidden": true
+    },
+    {
+      "userId": 1,
+      "name": "Equinox",
+      "buildWeight": 1200,
+      "description": "small but powerful",
+      "caseName": "Equinox",
+      "caseColor": "Rose Gold",
+      "caseDesigner": "ai03",
+      "caseMaterialId": 7,
+      "plateMaterialId": 4,
+      "caseLayoutId": 4,
+      "switchName": "C3 Tangerines",
+      "switchWeight": 62,
+      "switchLube": "205g0",
+      "switchTypeId": 1,
+      "keycapName": "GMK Olivia",
+      "keycapProfile": "Cherry",
+      "keycapMaterialId": 2,
+      "keycapSculpt": "Sculpted",
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "name": "Purple Polaris",
+      "buildWeight": 1470,
+      "description": "my first build",
+      "caseName": "Polaris",
+      "caseColor": "Purple",
+      "caseDesigner": "ai03",
+      "caseMaterialId": 7,
+      "plateMaterialId": 4,
+      "caseLayoutId": 3,
+      "switchName": "Zealios",
+      "switchWeight": 67,
+      "switchLube": "3203",
+      "switchTypeId": 2,
+      "keycapName": "KAT Milkshake",
+      "keycapProfile": "KAT",
+      "keycapMaterialId": 3,
+      "keycapSculpt": "Sculpted",
+      "id": 15
+    }
+  ],
+  "switchTypes": [
+    {
+      "id": 1,
+      "name": "Linear"
+    },
+    {
+      "id": 2,
+      "name": "Tactile"
+    },
+    {
+      "id": 3,
+      "name": "Clicky"
+    }
+  ],
+  "layouts": [
+    {
+      "id": 1,
+      "name": "Full"
+    },
+    {
+      "id": 2,
+      "name": "TKL"
+    },
+    {
+      "id": 3,
+      "name": "60%"
+    },
+    {
+      "id": 4,
+      "name": "40%"
+    }
+  ],
+  "materials": [
+    {
+      "id": 1,
+      "name": "ABS",
+      "resource": "keycap"
+    },
+    {
+      "id": 2,
+      "name": "Doubleshot ABS",
+      "resource": "keycap"
+    },
+    {
+      "id": 3,
+      "name": "PBT",
+      "resource": "keycap"
+    },
+    {
+      "id": 4,
+      "name": "Brass",
+      "resource": "plate"
+    },
+    {
+      "id": 5,
+      "name": "FR4",
+      "resource": "plate"
+    },
+    {
+      "id": 6,
+      "name": "Polycarbonate",
+      "resource": "plate"
+    },
+    {
+      "id": 7,
+      "name": "Aluminum",
+      "resource": "case"
+    },
+    {
+      "id": 8,
+      "name": "Polycarbonate",
+      "resource": "case"
+    },
+    {
+      "id": 9,
+      "name": "Acrylic",
+      "resource": "case"
+    },
+    {
+      "id": 10,
+      "name": "POM",
+      "resource": "case"
+    }
+  ],
+  "statuses": [
+    {
+      "id": 1,
+      "label": "home",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "label": "work",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "label": "display",
+      "isActive": false
+    },
+    {
+      "isActive": false,
+      "label": "",
+      "id": 4
+    },
+    {
+      "isActive": false,
+      "label": "",
+      "id": 5
+    }
+  ]
+}
